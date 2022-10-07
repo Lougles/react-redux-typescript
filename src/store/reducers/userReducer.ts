@@ -31,6 +31,8 @@ const initialState: UserState = {
 
 
 
+
+
 export const userReducer = (state = initialState, action: UserAction): UserState => {
   switch (action.type) {
     case UserActionTypes.FETCH_USERS:
